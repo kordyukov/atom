@@ -8,22 +8,34 @@ lecture 1
 https://atom.mail.ru/
 
 #HSLIDE
+### About me
+<img src="https://avatars2.githubusercontent.com/u/710546?v=3&s=460" alt="me" style="width: 200px;"/>
+    
+- yan.brikl@gmail.com 
+- [https://github.com/rybalkinsd](https://github.com/rybalkinsd)
+- Java 5+ years
+- Yandex, Allods Team (mail.ru group)
+- Currently Senior Software Engineer at AliExpress.com
+
+**Люблю зеленые билды**  
+
+#HSLIDE
 # About me
 <img src="lecture01/presentation/assets/img/me.jpg" alt="me" style="width: 220px; float: left;"/>  
 
   alpieex@gmail.com  
   [https://github.com/Al-p-i](https://github.com/Al-p-i)  
 
-  Java 5+ years
+  Java 6+ years
 
-- Former software developer in Allods Team (Skyforge)
+- Former engineer in Allods Team (Skyforge)
 - Currently lead developer at hh.ru
 
-**Люблю смотреть, как другие пишут тесты**  
+**Люблю смотреть, как другие работают**  
 
 #HSLIDE
 # Цель курса
-Практическое введение в разработку серверных web приложений на Java  
+Прагматичное введение в разработку серверных web-приложений на Java  
 Практическая часть - разработка сервера для мультиплеерной игры
 
 **Мы научимся:**
@@ -33,8 +45,8 @@ https://atom.mail.ru/
   
 #HSLIDE
 # Ключевые технологии
-**Java SE 8.0**  
-**Jersey** - web framework + **jetty** webserver  
+**Java SE 9.0**  
+**Spring MVC** - web framework 
 **Hibernate** - общение с базами данных  
 **WebSocket** - сетевое взаимодействие  
 **Инструменты:** Git, Gradle, Docker
@@ -52,11 +64,12 @@ https://atom.mail.ru/
 **!Чатик в Telegram!**  
 [https://t.me/joinchat/AAAAAEF63F9PvqE4JDzYdQ](https://t.me/joinchat/AAAAAEF63F9PvqE4JDzYdQ)  
 
-**JDK8**  
-[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
+**JDK9**
+**RC:** [http://jdk.java.net/9/](http://jdk.java.net/9/)  
+**General Availability:** coming 21.09.2017 
   
 **Официальная документация Java**  
-[http://docs.oracle.com/javase/8/docs/api/](http://docs.oracle.com/javase/8/docs/api/)
+[http://download.java.net/java/jdk9/docs/api/](http://download.java.net/java/jdk9/docs/api/)
 
 #HSLIDE
 # План курса
@@ -66,7 +79,8 @@ https://atom.mail.ru/
 3. **Persistence** - работаем с базами данных
 4. **Client-server interaction** - общаемся по сети
 5. **Game mechanics** - строим игру
-6. **Final project** - защищаем групповой проект
+6. **Concurrency** - знакомимся со сложным
+7. **Final project** - защищаем групповой проект
 
 #HSLIDE
 # Оценка
@@ -287,14 +301,14 @@ Method body **{ … }**
 
 #HSLIDE
 # JDK Setup
-1. Download [**JDK8**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
+1. Download [**JDK9**](http://jdk.java.net/9/) 
 
 2. Look inside jdk directory
 ```
-> ls jdk8/
+> ls jdk9/
 ```
 ```
-> ls jdk8/bin/
+> ls jdk9/bin/
 ```
 java, javac, javap, jar
 
@@ -326,8 +340,8 @@ JVM + Lang + Libs
 set **path** and **JAVA_HOME** environment variables  
 **Linux:**
 ```bash
-> echo "PATH='/path/to/jdk8/bin:$PATH'" >> ~/.bashrc
-> echo "JAVA_HOME='/path/to/jdk8/'" >> ~/.bashrc
+> echo "PATH='/path/to/jdk9/bin:$PATH'" >> ~/.bashrc
+> echo "JAVA_HOME='/path/to/jdk9/'" >> ~/.bashrc
 > source ~/.bashrc
 > echo $PATH
 ...
@@ -336,8 +350,8 @@ set **path** and **JAVA_HOME** environment variables
 ```
 **macOS:** (possibly sudo)
 ```bash
-> echo "PATH='/path/to/jdk8/bin:$PATH'" >> /etc/profile
-> echo "JAVA_HOME='/path/to/jdk8/'" >> /etc/profile
+> echo "PATH='/path/to/jdk9/bin:$PATH'" >> /etc/profile
+> echo "JAVA_HOME='/path/to/jdk9/'" >> /etc/profile
 > source /etc/profile
 > echo $PATH
 ...
@@ -552,6 +566,14 @@ master
 **--rebase** заставляет **git** переносить ваши изменения поверх изменений других людей в этой ветке, которые они сделали, пока вы работали над этой веткой локально  
 (возможны конфликты)
 
+#HSLIDE
+# Git editor setup
+Для некоторых интерактивных действий (например изменение описания коммита) git использует редактор    
+Редактор по умолчанию - **vim**  
+Для тех, кто не знает, [как выйти из вима](https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor), и пользуется **windows**, простой путь - сделать редактором notepad
+```bash
+> git config --global core.editor notepad
+```
 
 #HSLIDE 
 # 5. Gradle 
@@ -584,7 +606,7 @@ do not need installation ([details](https://gradle.org/install)), just use:
 ## Why gradle?
 - build/test/jar ... your project
 - support custom build stages, configurable with **groovy**
-- manage **dependencies** (automatacally download)
+- manage **dependencies** (automatically download)
 - manage project structure  
   
 build configuration is contained in **build.gradle**  
@@ -662,7 +684,7 @@ It tracks all branches and pull requests
 **Community edition** будет достаточно, но для студентов часто бесплатно предоставляют **professional edition**
 
 #HSLIDE
-## Ура! Праздники!
+## Horay! Lecture 1 is over
 **Оставьте обратную связь**
 (вам на почту придет анкета)  
 
