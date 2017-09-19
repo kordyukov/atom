@@ -13,9 +13,9 @@ https://atom.mail.ru/
     
 - yan.brikl@gmail.com 
 - [https://github.com/rybalkinsd](https://github.com/rybalkinsd)
-- Java 5+ years
+- Java 6+ years
 - Yandex, Allods Team (mail.ru group)
-- Currently Senior Software Engineer at AliExpress.com
+- Currently engineer at AliExpress.com
 
 **Люблю зеленые билды**  
 
@@ -26,10 +26,9 @@ https://atom.mail.ru/
   alpieex@gmail.com  
   [https://github.com/Al-p-i](https://github.com/Al-p-i)  
 
-  Java 6+ years
-
-- Former engineer in Allods Team (Skyforge)
-- Currently lead developer at hh.ru
+- Java 6+ years
+- MailRu, Headhunter
+- Currently engineer at AliExpress.com
 
 **Люблю смотреть, как другие работают**  
 
