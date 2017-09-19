@@ -197,7 +197,7 @@ https://atom.mail.ru/
 
 
 #HSLIDE
-#Expressions
+# Expressions
 
 ```java
 int value = 0;
@@ -220,7 +220,7 @@ if (commonVariable > -42) { // ← начало блока
 */
 ```
 #HSLIDE
-##if else
+## if else
 ```java
 if (18 == yourAge) {
     // у вас всё хорошо
@@ -386,7 +386,7 @@ public class HelloWorld {
 5. Every statement must end with **;**
 
 #HSLIDE 
-# compile and run
+# Compile and run
 
 1. Compile program with **javac**
 ```bash
