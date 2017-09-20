@@ -169,6 +169,16 @@ https://atom.mail.ru/
 6. Homework 1  
 
 #HSLIDE 
+# jshell
+JDK9 introdeces cool REPL called **jshell**  
+So you can talk in java almost as in any interpreted language (like python)  
+This is handy to get yourself with basic syntax and standard library.
+```bash
+> jshell
+```
+Try the examples below there.
+
+#HSLIDE 
 ## Basic types
 | Type          | Size          | Range             |
 | ------------- |:-------------:| -----------------:|
@@ -259,21 +269,15 @@ for (initialization; termination; increment)
 ```
 **Examples:**
 ```java
-for (int i = 0; i < numberOfObjects; i++) {
-    // iterates numberOfObjects times,
-    // if numberOfObjects >= 0
-}
-
-int[] digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-for (int i : digits ) {
+int[] digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+for (int i : digits) {
     System.out.println(“Digit: “ + i);
 }
 
-//Для хипстеров
+//Итерация для хипстеров
 IntStream.range(0, 10).forEach(digit -> System.out.println(digit));
 
 IntStream.range(0, 10).forEach(System.out::println);
-
 ```
 
 #HSLIDE 
