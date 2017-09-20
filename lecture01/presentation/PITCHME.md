@@ -8,7 +8,7 @@ lecture 1
 https://atom.mail.ru/
 
 #HSLIDE
-### About me
+# About me
 <img src="https://avatars2.githubusercontent.com/u/710546?v=3&s=460" alt="me" style="width: 200px;"/>
     
 - yan.brikl@gmail.com 
