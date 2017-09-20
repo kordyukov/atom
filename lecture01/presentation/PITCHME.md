@@ -45,7 +45,7 @@ https://atom.mail.ru/
 #HSLIDE
 # Ключевые технологии
 **Java SE 9.0**  
-**Spring MVC** - web framework 
+**Spring MVC** - web framework  
 **Hibernate** - общение с базами данных  
 **WebSocket** - сетевое взаимодействие  
 **Инструменты:** Git, Gradle, Docker
@@ -171,12 +171,11 @@ https://atom.mail.ru/
 #HSLIDE 
 # jshell
 JDK9 introdeces cool REPL called **jshell**  
-So you can talk in java almost as in any interpreted language (like python)  
-This is handy to get yourself with basic syntax and standard library.
+So you can use **java** almost as interpreted language (like python)  
 ```bash
 > jshell
 ```
-Try the examples below there.
+Try the examples below.
 
 #HSLIDE 
 ## Basic types
