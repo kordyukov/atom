@@ -668,7 +668,7 @@ It tracks all branches and pull requests
 [https://github.com/rybalkinsd/atom](https://github.com/rybalkinsd/atom)
 3. Make sure **tests** and **checkstyle** are passing in **Travis**  
 
-**Deadline:** 1 March  
+**Deadline:** 27 September (before lecture)  
 **Mark:** 5 points
 
 #HSLIDE
