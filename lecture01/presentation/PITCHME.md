@@ -8,7 +8,7 @@ lecture 1
 https://atom.mail.ru/
 
 #HSLIDE
-# About me
+## About me
 <img src="https://avatars2.githubusercontent.com/u/710546?v=3&s=460" alt="me" style="width: 200px;"/>
     
 - yan.brikl@gmail.com 
@@ -20,7 +20,7 @@ https://atom.mail.ru/
 **Люблю зеленые билды**  
 
 #HSLIDE
-# About me
+## About me
 <img src="lecture01/presentation/assets/img/me.jpg" alt="me" style="width: 220px; float: left;"/>  
 
   alpieex@gmail.com  
@@ -33,7 +33,7 @@ https://atom.mail.ru/
 **Люблю смотреть, как другие работают**  
 
 #HSLIDE
-# Цель курса
+## Цель курса
 Прагматичное введение в разработку серверных web-приложений на Java  
   
 **Практическая часть** - разработка сервера для мультиплеерной игры
@@ -44,7 +44,7 @@ https://atom.mail.ru/
 - деплоить  
   
 #HSLIDE
-# Ключевые технологии
+## Ключевые технологии
 **Java SE 9.0**  
 **Spring MVC** - web framework  
 **Hibernate** - общение с базами данных  
@@ -72,7 +72,7 @@ https://atom.mail.ru/
 [http://download.java.net/java/jdk9/docs/api/](http://download.java.net/java/jdk9/docs/api/)
 
 #HSLIDE
-# План курса
+## План курса
 12 лекций/семинаров + рубежный контроль + 2 хакатона + защита проектов
 1. **Intro** - познаем основы языка, знакомимся с инструментарием
 2. **Java WEB** - учимся писать web-сервисы
@@ -83,9 +83,9 @@ https://atom.mail.ru/
 7. **Final project** - защищаем групповой проект
 
 #HSLIDE
-# Оценка
+## Оценка
 ### Структура оценки:
-- РК + хакатоны = 16 + 12 + 12 (за хакатон можно получить и больше) 
+- РК + хакатоны = 16+12+12 (за хакатон можно получить больше) 
 - Домашние работы и тесты на занятиях = 30  
 - Сдача итогового проекта = 30  
 - \+ есть возможность получать дополнительные баллы за задания, которые мы даем прямо на семинарах  
