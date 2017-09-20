@@ -63,7 +63,7 @@ https://atom.mail.ru/
 **!Чатик в Telegram!**  
 [https://t.me/joinchat/AAAAAEF63F9PvqE4JDzYdQ](https://t.me/joinchat/AAAAAEF63F9PvqE4JDzYdQ)  
 
-**JDK9**
+**JDK9**  
 **RC:** [http://jdk.java.net/9/](http://jdk.java.net/9/)  
 **General Availability:** coming 21.09.2017 
   
