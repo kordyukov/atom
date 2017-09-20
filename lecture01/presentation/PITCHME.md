@@ -137,8 +137,7 @@ https://atom.mail.ru/
 ### Java dominates areas:
 - Back-end for enterprise-scale solutions
 - Android (specific area)  
-
-
+  
 ### Where Java mostly does not work?
 - Low level high performance software
 - soft for specific hardware
