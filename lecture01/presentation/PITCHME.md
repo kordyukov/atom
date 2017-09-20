@@ -35,7 +35,8 @@ https://atom.mail.ru/
 #HSLIDE
 # Цель курса
 Прагматичное введение в разработку серверных web-приложений на Java  
-Практическая часть - разработка сервера для мультиплеерной игры
+  
+**Практическая часть** - разработка сервера для мультиплеерной игры
 
 **Мы научимся:**
 - разрабатывать
@@ -72,7 +73,7 @@ https://atom.mail.ru/
 
 #HSLIDE
 # План курса
-12 лекций/семинаров + 3 рубежных контроля + защита проектов
+12 лекций/семинаров + рубежный контроль + 2 хакатона + защита проектов
 1. **Intro** - познаем основы языка, знакомимся с инструментарием
 2. **Java WEB** - учимся писать web-сервисы
 3. **Persistence** - работаем с базами данных
@@ -84,7 +85,7 @@ https://atom.mail.ru/
 #HSLIDE
 # Оценка
 ### Структура оценки:
-- 3 Рубежных контроля = 16 + 12 + 12  
+- РК + хакатоны = 16 + 12 + 12 (за хакатон можно получить и больше) 
 - Домашние работы и тесты на занятиях = 30  
 - Сдача итогового проекта = 30  
 - \+ есть возможность получать дополнительные баллы за задания, которые мы даем прямо на семинарах  
@@ -665,8 +666,10 @@ It tracks all branches and pull requests
 [[Github branch]](https://github.com/rybalkinsd/atom/tree/homework1)
 [[Travis build]](https://travis-ci.org/rybalkinsd/atom/builds/204177834)
 2. Make pull request to **course repository**
-[https://github.com/rybalkinsd/atom](https://github.com/rybalkinsd/atom)
-3. Make sure **tests** and **checkstyle** are passing in **Travis**  
+[https://github.com/rybalkinsd/atom](https://github.com/rybalkinsd/atom)  
+(from your branch **homework1** to ours **homework1**)
+3. Write your credentials in description for pull request
+4. Make sure **tests** and **checkstyle** are passing in **Travis**  
 
 **Deadline:** 27 September (before lecture)  
 **Mark:** 5 points
