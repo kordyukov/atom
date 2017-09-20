@@ -86,7 +86,7 @@ https://atom.mail.ru/
 ## Оценка
 ### Структура оценки:
 - РК + хакатоны = 16+12+12 (за хакатон можно получить больше) 
-- Домашние работы и тесты на занятиях = 30  
+- Домашние работы = 30  
 - Сдача итогового проекта = 30  
 - \+ доп баллы за задания, которые мы даем на семинарах  
 - \+ доп баллы за принятые pull request-ы в репозиторий курса
@@ -373,6 +373,11 @@ set **path** and **JAVA_HOME** environment variables
 > java -version
 ...
 ```
+
+#HSLIDE
+# First program
+All the code in contained in **.java** files.  
+Let's create our first java program in file with name **HelloWorld.java**  
 
 #HSLIDE 
 # Hello, World!
